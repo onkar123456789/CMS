@@ -1,0 +1,218 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f6f8;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: #343a40;
+  color: #fff;
+  width: 220px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar nav ul li a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.logout-section {
+  margin-top: 20px;
+}
+
+/* Main Content Styles */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+}
+
+/* Panel Styles */
+.panel {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.content-form .form-group {
+  margin-bottom: 15px;
+}
+
+.content-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.content-form input,
+.content-form textarea,
+.content-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.content-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+/* Button Styles */
+.btn, .btn-edit, .btn-delete {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.btn:hover, .btn-edit:hover {
+  background-color: #0056b3;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+/* Error Message */
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Controls */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter-sort label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.filter-sort select {
+  margin-left: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Content List */
+.content-list {
+  list-style: none;
+  padding: 0;
+}
+
+.content-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Preview Styles */
+.preview {
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+  margin-top: 15px;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+
+/* Comments Section */
+.comments-section {
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.comments-section h4 {
+  margin-top: 0;
+}
+
+.comments-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.comment-item {
+  border-bottom: 1px dashed #ccc;
+  padding: 8px 0;
+}
+
+.comment-form {
+  display: flex;
+  gap: 10px;
+}
+
+.comment-form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Login Panel Styles */
+.login-panel {
+  max-width: 400px;
+  margin: 50px auto;
+}
